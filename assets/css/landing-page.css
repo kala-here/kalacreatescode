@@ -1685,10 +1685,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
+
 }
 
 @media (min-width: 768px){
     .landing-page .navbar-top{
-        padding-top: 10px;
+      padding-top: 10px;
+    }
+}
+
+@media (min-width: 300px){
+  .parallax-image{
+    max-width: 100% !important;
     }
 }
